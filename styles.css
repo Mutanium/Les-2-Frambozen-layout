@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+/*Definieer achtergrondkleur en lettertype*/
+body {
+    background-color: hsl(280, 13%, 87%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: hsl(223, 10%, 36%);
+}
+/*Definieer koppen, is de font family redundant?*/
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: hsl(281, 26%, 48%);
+
+}
+h1 {
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 0.6rem;
+    text-transform: uppercase;
+}
+/* Definieer stijl van button*/
+.button {
+    border: 0;
+    background: #865B9A;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem 0.3rem;
+    margin: 0.25rem;
+    cursor: pointer;
+}
+.button:hover {
+    background: hsl(281, 26%, 58%);
+}
+/*definieer stijl van unordered list */
+.ul {
+    display: block;
+    list-style-type: square;
+    margin: 1rem 0;
+    padding-left: 40px;
+}
